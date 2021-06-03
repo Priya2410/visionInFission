@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ramabhadra', sans-serif;
+}
+#nav-bar
+{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#87ded2,#87ded2);
+    padding: 0;
+}
+.navbar-brand
+{
+    padding-left: 2%;
+}
+.navbar-nav
+{
+    font-weight: 700;
+}
