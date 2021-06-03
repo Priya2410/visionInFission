@@ -31,8 +31,6 @@ Let us all join hands and be a helping hand, today!</p><br>
 
 ![](https://github.com/Priya2410/disasterManagement/blob/master/img/donate.png?raw=true)<br>
 
-![](https://github.com/Priya2410/disasterManagement/blob/master/img/donate1.png?raw=true)<br>
-
 ![](https://github.com/Priya2410/disasterManagement/blob/master/img/signin.png?raw=true)<br>
 
 ![](https://github.com/Priya2410/disasterManagement/blob/master/img/signup.png?raw=true)<br>
