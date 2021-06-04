@@ -60,10 +60,9 @@ body{
 {
     padding-left: 2%;
 }
-
 .navbar-nav
 {
-    font-weight: 900;
+    font-weight: 700;
 }
 .navbar-nav li a:hover
 {
@@ -135,6 +134,7 @@ body{
     transform: translateY(63px);
 }
 }
+
 #footer
 {
     background-image: linear-gradient(to bottom,#4287f5,#9bc0fa);
@@ -153,14 +153,7 @@ body{
     padding: 5% 0;
 }
 
-#img1,#img2,#img3
-{
-    width:100%;
-    height:70%;
-    margin-bottom: 3%;
-    border-radius: 35%;
-    padding-top: 10%;
-}
+
 .loc 
 {
     color:#9bc0fa;

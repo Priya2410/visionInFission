@@ -52,7 +52,7 @@
           <div class="col-md-6">
               <p class="promo-title">TOGETHER WE CAN MAKE A DIFFERENCE</p>
               <p class="info">Be a helping hand today.We stand with the refugees,Bring to life agin those who are spititually dead.</p>
-              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="Your Key" async> </script></form>
+              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HIEgDfZTNI2YLW" async> </script></form>
           </div>
           <div class="col-md-6 text-center">
               <img src="img/saving.svg" alt="saving" class="img-fluid">
@@ -63,25 +63,25 @@
 <img src="img/wave.svg">
 
 <section id="services">
-  <div class="container text-center">
+  <div class="container text-center py-5">
      <h1 class="title">WHY SHOULD YOU DONATE?</h1> 
       <div class="row">
           <div class="col-md-4">
-              <img src="img/saving.svg" class="img-fluid" id="img1">
+              <img src="img/saving.svg" class="img-fluid d-sm-none d-md-block mt-3 mb-3">
               <h4 class="text-center">SECURE MODE OF PAYMENT</h4>
               <p class="loc">This is a very secure mode of payment that will ensure that money goes into the right hands and help the needy.
                 Donate now through a completely secured, easy mode of payment so that the money reaches the person.</p>
               </p>
           </div>
-          <div class="col-md-4">
-              <img src="img/ambulance.jpg" class="img-fluid" id="img2">
+          <div class="col-sm-12 col-md-4 py-5">
+              <img src="img/ambulance.jpg" class="img-fluid d-sm-none d-md-block mb-3">
               <h4 class="text-center">HELP THE NEEDY</h4>
               <p class="loc" >Every penny counts just like every drop in the ocean. 
               Donate and be a helping hand today! 
               All donations will directly be utilised towards nuclear disaster management and sending emergency kits, food and basic emenities to those in need ! </p>
               </div>
           <div class="col-md-4">
-              <img src="img/gifts.svg" class="img-fluid" id="img3">
+              <img src="img/gifts.svg" class="img-fluid d-sm-none d-md-block mt-3 mb-5">
               <h4 class="text-center">WE NEED YOU</h4>
               <p class="loc">Help us in helping them and even a single rupee of your donation will help us achieve our goal of helping others in need !
               In these difficult times, let's join hands together and stand with those going through difficult times !</p>
@@ -90,12 +90,12 @@
   </div>
 </section>
 <section class="stat" id="stats">
-  <div class="container text-center my-5 text-dark">
+  <div class="container text-center my-5 text-dark py-5">
       <h1 class="title text-center">STATISTICS</h1>
       <div class="row">
           <div class="col-md-4">
               <div class="stat-items" id="totaldonation">
-                  <img src="img/moneytransfer.svg" class="img-fluid mt-5">
+                  <img src="img/moneytransfer.svg" class="img-fluid mt-5 mb-3">
                   <h2><span class="counter text-center">67890</span><span>+</span></h2>
                   <h3 class="text-dark">Total Donations</h3>
               </div>
@@ -116,6 +116,17 @@
           </div>
       </div>
   </div>
+  <script src="../locator/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function()
+    {
+        $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+    });
+  </script>
 </section>
 <img src="img/wave-3.svg">
 <section id="footer">
@@ -141,16 +152,5 @@
       </div>
   </div>
 </section>
-<script src="jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
-    <script>
-    $(document).ready(function()
-    {
-        $('.counter').counterUp({
-        delay: 10,
-        time: 2000
-    });
-    });
-  </script>
 </body>
 </html>
